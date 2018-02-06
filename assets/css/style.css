@@ -237,3 +237,25 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:959px) {
+  #masthead {
+    /* Whatever the screen width is as it expands and shrinks across devices, the element with this ID
+    will take up the full width of the screen.*/
+    width: 100% ;
+  }
+  .container {
+      width: 100% ;
+  }
+
+  img {
+    width: 100% ;
+  }
+
+  p {
+    width: 100% ;
+  }
+  sidebar {
+    width: 100% ;
+  }
+}
